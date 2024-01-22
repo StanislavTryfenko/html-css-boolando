@@ -3,6 +3,12 @@
 --bool-footer-bg-color: black;
 --bool-footer-txt-color: white;
 --bool-price: red;
+--bool-discount-bg-color: red;
+--bool-discount-color: white;
+--bool-ecologic-bg-color: green;
+--bool-ecologic-color: white;
+
+
 }
 
 /* #region common */
@@ -36,6 +42,46 @@ img {
     font-weight: lighter;
 }
 
+.heart{
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    background-color: white;
+    padding: 0.5rem 0.5rem 0.25rem;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.discount{
+    color: var(--bool-discount-color);
+    background-color: var(--bool-discount-bg-color);
+    position: absolute;
+    top: 85%;
+    font-size: x-small;
+    padding: 0.25rem .5rem;
+}
+
+.ecologic{
+    color: var(--bool-ecologic-color);
+    background-color: var(--bool-ecologic-bg-color);
+    position: absolute;
+    top: 85%;
+    font-size: x-small;
+    padding: 0.25rem .5rem;
+}
+
+.plus-ecologic{
+    color: var(--bool-ecologic-color);
+    background-color: var(--bool-ecologic-bg-color);
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    font-size: x-small;
+    padding: 0.25rem .5rem;
+}
+
 /* #endregion */
 
 /* #region header */
@@ -45,6 +91,7 @@ header{
     position: fixed;
     top: 0%;
     width: 100%;
+    z-index: 10000;
 }
 
 .navigation{
@@ -71,10 +118,14 @@ header{
 }
 
 .case{
-    display: block;
+    position: relative;
     max-height: 50%;
     max-width: 30%;
     margin-bottom: 2rem;
+}
+
+.img-content{
+    position: relative;
 }
 
 .img1-hover:hover{
@@ -117,5 +168,6 @@ footer{
     align-items: center;
     height: 4rem;
     border-bottom: 2px solid gray;
+    z-index: 10000;
 }
 /* #endregion */
