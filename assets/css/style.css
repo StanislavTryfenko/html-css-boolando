@@ -1,0 +1,48 @@
+:root{
+--bool-header-bg-col: orange;
+}
+
+/* #region common */
+
+*{
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #endregion */
+
+/* #region utility */
+
+/* #endregion */
+
+/* #region header */
+
+header{
+    background-color: var(--bool-header-bg-col);
+    position: fixed;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3rem;
+}
+
+.logo{ 
+    height: 1.5rem;
+}
+
+/* #endregion */
+
+/* #region main */
+
+/* #endregion */
+
+/* #region footer */
+
+/* #endregion */
