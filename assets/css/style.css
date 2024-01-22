@@ -2,6 +2,7 @@
 --bool-header-bg-color: orange;
 --bool-footer-bg-color: black;
 --bool-footer-txt-color: white;
+--bool-price: red;
 }
 
 /* #region common */
@@ -16,9 +17,23 @@ a{
     margin-right: 0.25rem;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* #endregion */
 
 /* #region utility */
+
+.price{
+    color: var(--bool-price);
+    font-weight: bolder;
+}
+
+.original-price{
+    text-decoration: line-through;
+    font-weight: lighter;
+}
 
 /* #endregion */
 
@@ -27,6 +42,7 @@ a{
 header{
     background-color: var(--bool-header-bg-color);
     position: fixed;
+    top: 0%;
     width: 100%;
 }
 
@@ -44,6 +60,20 @@ header{
 /* #endregion */
 
 /* #region main */
+
+.showcase{
+    margin: 10% 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.case{
+    display: block;
+    max-height: 50%;
+    max-width: 30%;
+}
 
 /* #endregion */
 
