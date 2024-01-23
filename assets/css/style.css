@@ -8,7 +8,6 @@
 --bool-ecologic-bg-color: green;
 --bool-ecologic-color: white;
 
-
 }
 
 /* #region common */
@@ -167,7 +166,6 @@ header{
 .img6-hover:hover{
     content: url(../img/6b.webp);
 }
-
 
 /* #endregion */
 
