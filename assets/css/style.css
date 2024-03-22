@@ -32,8 +32,6 @@ img {
 
 /* #region utility */
 
-<<<<<<< HEAD
-=======
 .container{
     margin: 0% 20%;
     display: flex;
@@ -41,7 +39,6 @@ img {
     align-items: center;
 }
 
->>>>>>> 4b4345f (Fix  add header and footer containers)
 .brand{
     font-size: xx-small;
     font-weight: lighter;
@@ -106,15 +103,8 @@ header{
     z-index: 10000;
 }
 
-<<<<<<< HEAD
-.navigation{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-=======
 .navigation-top{
 
->>>>>>> 4b4345f (Fix  add header and footer containers)
     height: 3rem;
 }
 
@@ -174,27 +164,15 @@ header{
 footer{
     background-color: var(--bool-footer-bg-color);
     color: var(--bool-footer-txt-color);
-<<<<<<< HEAD
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-=======
     display: block;
     bottom: 0%;
     width: 100%;
->>>>>>> 4b4345f (Fix  add header and footer containers)
     height: 4rem;
     border-bottom: 2px solid gray;
     z-index: 10000;
 }
-<<<<<<< HEAD
-=======
 
 .navigation-bottom{
     height: 4rem;
 }
->>>>>>> 4b4345f (Fix  add header and footer containers)
 /* #endregion */
