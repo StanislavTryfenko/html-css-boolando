@@ -63,13 +63,13 @@ font-weight: bold;
     position: absolute;
     top: 2%;
     right: 0%;
-    background-color: white;
     padding: 0.5rem 0.5rem 0.25rem;
+
+    &:hover{
+        color: red;
+    }
 }
 
-.heart:hover{
-    fill: red;
-}
 
 .tags{
     position: absolute;
